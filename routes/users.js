@@ -21,4 +21,4 @@ router.get('/', (req, res) => {
     res.send(users);
 });  
 
-export default router;
+module.exports= {router};
